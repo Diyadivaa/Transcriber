@@ -1,8 +1,8 @@
 import pvleopard
 
-leopard = pvleopard.create(access_key='PzCX9W+tnGPNBzkYfLZfEU1g//daba5p+M9VN0oK7nK4djB2+JTenA==')
+leopard = pvleopard.create(access_key="#key")
 
-transcript, words = leopard.process_file("C:\\Users\\19105\\Documents\\For jack voice\\Will.mp4")
+transcript, words = leopard.process_file("#path")
 print(transcript)
 for word in words:
     print(
